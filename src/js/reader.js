@@ -3,7 +3,6 @@
 export const saveData = '{"id": 9,"created": 1546300800, "userInfo": {"id": 1, "name": "Hitman", "level": 10, "points":2000}}';
 
 export default function read(data = saveData) {
-// export default function read() {
   return new Promise((resolve, reject) => {
     // эмуляция чтения файла
     setTimeout(() => {
